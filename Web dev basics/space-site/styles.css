@@ -1,6 +1,6 @@
 body{
-    background-image: url("images/universe.jpg");
-    background-size: cover;
+    background-image: url("./images/universe.jpg");
+     background-size: cover;
     color: white;
     text-align: center;
 }
@@ -19,6 +19,14 @@ body{
   font-optical-sizing: auto;
   font-weight: 800px;
   font-style: normal;
+}
+.underline{
+    border-bottom: 4px solid white;
+}
+#logo{
+    width: 150px;
+
+   
 }
 footer{
     margin-top: 400px;
