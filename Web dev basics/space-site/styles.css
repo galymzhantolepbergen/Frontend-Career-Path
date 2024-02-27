@@ -1,19 +1,19 @@
 body{
-    background-image: url("./images/universe.jpg");
-     background-size: cover;
-    color: white;
+    color: #e2bc42;
     text-align: center;
+    margin: 0;
+
 }
 .content{
     margin-top: 80px ;
-    font-size: 50px;
 }
 .btn{
     padding: 10px 20px;
+    color: #0c446e;
+    /* text-shadow: 1px -1px 10px #e2bc42 ; */
     font-family: inherit;
-    
+    font-weight: bolder;
 }
-
 .orbitron-text{
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
@@ -24,10 +24,17 @@ body{
     border-bottom: 4px solid white;
 }
 #logo{
-    width: 150px;
-
-   
+    width: 150px;  
 }
-footer{
-    margin-top: 400px;
+#hero{
+    background: url("./images/galaxy.gif");
+    background-size: cover;
+    padding: 10px 0 350px 0;
+}
+#title{
+    text-shadow: 2px -2px 4px #0c446e;
+    font-size: 60px;
+}
+#term{
+    font-size: 15px;
 }
