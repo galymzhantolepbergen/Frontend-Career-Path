@@ -27,7 +27,7 @@ body{
     width: 150px;  
 }
 #hero{
-    background: url("./images/galaxy.gif");
+    background: url("./images/space.gif");
     background-size: cover;
     padding: 10px 0 350px 0;
 }
