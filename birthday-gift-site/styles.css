@@ -1,0 +1,28 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: #cc95fa;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#logo{
+    border-radius: 50%;
+    width: 30%;
+    border: #eee7f7 double 5px;
+    margin-bottom: -5px;
+}
+
+h2, h4{
+    color: rgb(114, 56, 171);
+    background-color:#ffffff;
+    border: 1px dotted #cc95fa;
+    border-radius: 5%;
+    padding: 0 10px;
+}
+
+    
+.title{
+    text-shadow: 2px -2px 4px rgb(77, 24, 131);
+}
