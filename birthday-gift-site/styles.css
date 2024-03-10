@@ -2,27 +2,65 @@ body{
     font-family:'Courier New', Courier, monospace;
     background-color: #cc95fa;
     color: #ffffff;
+    margin: 0px;
+}
+.header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
+    text-align: center;
 }
 #logo{
     border-radius: 50%;
-    width: 30%;
+    width: 350px;
     border: #eee7f7 double 5px;
-    margin-bottom: -5px;
 }
 
-h2, h4{
+#bday-day{
     color: rgb(114, 56, 171);
     background-color:#ffffff;
     border: 1px dotted #cc95fa;
     border-radius: 5%;
-    padding: 0 10px;
+    padding: 3px 10px;
+    margin:5px 0 10px 0;
 }
+#bday-date{
+    color: rgb(114, 56, 171);
+    background-color:#ffffff;
+    border: 1px dotted #cc95fa;
+    border-radius: 5%;
+    padding: 3px 8px;
+    margin: 0px;
 
-    
+}
 .title{
     text-shadow: 2px -2px 4px rgb(77, 24, 131);
+}
+.gift-section{
+    text-align: center;
+    margin: 30px 0 0 0;
+    align-items: center;
+    border:1px dotted white;
+
+}
+#gift-title{
+    margin: 0 0 8px 0 ;
+}
+#gift-hint{
+    margin: 0 0 10px 0 ;
+
+}
+#gift-logo{
+    width: 250px;
+    height: 250px;
+    border: 5px #eee7f7 solid;
+    border-radius: 15px;
+    padding: 5px 10px 5px 5px;
+    background-image:url("images/gift-holder.jpg");
+    background-size: cover;
+    margin: 0 auto;
+}
+#gift-logo:hover{
+    border-radius: 40px;
+    
 }
